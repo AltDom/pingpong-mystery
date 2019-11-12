@@ -1,4 +1,4 @@
-# Ping Pong Ball Mysteries
+# Ping Pong Mysteries
 
 <img src="https://media.giphy.com/media/J3S2eQvnQPYBpl3YjZ/giphy.gif" width="100%">
 
