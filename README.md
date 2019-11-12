@@ -2,9 +2,10 @@
 
 <img src="https://media.giphy.com/media/J3S2eQvnQPYBpl3YjZ/giphy.gif" width="100%">
 
+## About This Project
 Can you solve the Ping Pong Mysteries!? You will need to be cunning and use database queries to uncover who it was who committed the ultimate sports crime. Your journey will be challenging. Your journey will be treacherous. Do you dare to follow a trail into the unknown where pure evil undoubtedly awaits!? 
 
-## About This Project
+## Before You Begin
 To set the scene of this crime assume you are a young police cadet on the GTB Police Force with only 1 year's training. Determined to impress the chief commissioner you're on the hunt to crack your first big case before the season is out. On an icy winter's morning you receive a chilling phonecall from the principal of Yrgo, Lindholmen. Though you're not ususally one to trust New Zealanders, you're drawn to the peculiarity of this case as well as the sense of urgency in her voice. 
 
 When you arrive at Yrgo the principal invites you into her office for tea and cookies. 
@@ -24,7 +25,7 @@ Too hard? Check the query solutions file if you get stuck.
 * Run the project using the command `php index.php`.
 * Create a local server using the command `php -S localhost:8000`.
 * Open your browser of choice and go to the url `localhost:8000`.
-* Enjoy ...and remember to keep reloading the page!
+* Enjoy!
 
 ## Project Writers
 * Alexander Gustafsson Flink
