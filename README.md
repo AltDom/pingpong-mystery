@@ -6,7 +6,7 @@
 Can you solve the Ping Pong Mysteries!? You will need to be cunning and use database queries to uncover who it was who committed the ultimate sports crime. Your journey will be challenging. Your journey will be treacherous. Do you dare to follow a trail into the unknown where pure evil undoubtedly awaits!? 
 
 ## Before You Begin
-To set the scene of this crime assume you are a young police cadet on the GTB Police Force with only 1 year's training. Determined to impress the chief commissioner you're on the hunt to crack your first big case before the season is out. On an icy winter's morning you receive a chilling phonecall from the principal of Yrgo, Lindholmen. Though you're not ususally one to trust New Zealanders, you're drawn to the peculiarity of this case as well as the sense of urgency in her voice. 
+To set the scene of this crime assume you are a young police cadet on the Gothenburg Police Force with only 1 year's training. Determined to impress the chief commissioner you're on the hunt to crack your first big case before the season is out. On an icy winter's morning you receive a chilling phonecall from the principal of Yrgo, Lindholmen. Though you're not ususally one to trust New Zealanders, you're drawn to the peculiarity of this case as well as the sense of urgency in her voice. 
 
 When you arrive at Yrgo the principal invites you into her office for tea and cookies.   
 "Do you take milk with your tea?"   
