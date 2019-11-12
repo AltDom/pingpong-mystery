@@ -1,0 +1,35 @@
+SELECT * FROM yrgo_records WHERE student_address LIKE '%Bourbon%';
+
+SELECT * FROM persons_in_gothenburg 
+INNER JOIN interviews
+ON persons_in_gothenburg.id = interviews.person_id 
+WHERE first_name LIKE 'lars';
+
+SELECT * FROM (SELECT * FROM yrgo_records
+INNER JOIN persons_in_gothenburg
+on yrgo_records.person_number = persons_in_gothenburg.person_number 
+WHERE student_address LIKE '%Bourbon%') AS table1
+INNER Join interviews
+on interviews.person_id = table1.id;
+
+SELECT * FROM lindholmen_shops
+inner join persons_in_gothenburg
+on persons_in_gothenburg.person_number = lindholmen_shops.owner_id
+where shop_name like '%lan%';
+
+SELECT * FROM interviews
+WHERE person_id = '666';
+
+SELECT * FROM voi_journeys_lindholmen_14oct
+WHERE journey_start = '18:06';
+
+SELECT * FROM voi_journeys_lindholmen_14oct
+INNER JOIN yrgo_records
+ON voi_journeys_lindholmen_14oct.user_person_number = yrgo_records.person_number
+WHERE journey_start = '18:06';
+
+SELECT * FROM yrgo_design_program
+WHERE student_name LIKE '%chip%';
+
+SELECT * FROM yrgo_design_program
+WHERE student_name LIKE '%ian%';
