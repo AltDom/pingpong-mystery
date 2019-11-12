@@ -2,7 +2,7 @@
 
 <img src="https://media.giphy.com/media/J3S2eQvnQPYBpl3YjZ/giphy.gif" width="100%">
 
-Can you solve the mystery of the Ping Pong Ball Murders!? You will need your most impressive database queries in order to solve the mystery. 
+Can you solve the Ping Pong Mysteries!? You will need to be cunning and use database queries to uncover who damaged the WU19 ping pong ball. 
 
 ## About This Project
 There are two versions of this project; `index.php` and `indexSQL.php`.
