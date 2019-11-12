@@ -3,7 +3,7 @@
 <img src="https://media.giphy.com/media/J3S2eQvnQPYBpl3YjZ/giphy.gif" width="100%">
 
 ## About This Project
-Can you solve the Ping Pong Mysteries!? You will need to be cunning and use database queries to uncover who it was who committed the ultimate sports crime. Your journey will be challenging. Your journey will be treacherous. Do you dare to follow a trail into the unknown where pure evil undoubtedly awaits!? 
+Can you solve the Ping Pong Mysteries!? You will need to be cunning and use SQLite database queries to uncover who it was who committed the ultimate sports crime. Your journey will be challenging. Your journey will be treacherous. Do you dare to follow a trail into the unknown where pure evil undoubtedly awaits!? 
 
 ## Before You Begin
 To set the scene of this crime assume you are a young police cadet on the Gothenburg Police Force. Determined to impress the chief commissioner you're on the hunt to crack your first big case before the season is out. On an icy winter's morning you receive a chilling phonecall from the principal of Yrgo, Lindholmen. Though you're not ususally one to trust New Zealanders, you're drawn to the peculiarity of this case as well as the sense of urgency in her voice. 
@@ -23,10 +23,8 @@ Too hard? Check the query solutions file if you get stuck.
 
 ## Download
 * Clone the repository using `git clone https://github.com/AltDom/wu19-pingpongmystery.git` in your chosen bash terminal.
-* Enter the project folder using the command `cd project/`.
-* Run the project using the command `php index.php`.
-* Create a local server using the command `php -S localhost:8000`.
-* Open your browser of choice and go to the url `localhost:8000`.
+* Run the SQLite database file in TablePlus your chosen bash terminal.
+* Use SQL database queries to navigate through the tables of data to solve the crime.
 * Enjoy!
 
 ## Project Writers
