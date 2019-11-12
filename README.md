@@ -13,9 +13,10 @@ When you arrive at Yrgo the principal invites you into her office for tea and co
 "Why yes, thank you, that would be lovely".  
 Vanilla rooibos ..it's delicious.
 
-Over the course of a solid 30-minutes of having your ears hammered about seemingly everything but the crime (Thank God for the cookies!), you're told that an inportant piece of Yrgo **property** has been **damaged**. Unfortunately the criminal, still at large, managed to flea the scene unnoticed, however you're given the current list of **Yrgo incidents** as a starting point, and apparently a student has logged somewhere in there what happened. You're immediately suspicious as to why the principal didn't go to the effort of finding this logged entry for you, but it's too soon to point fingers. You must follow the lead that you've been given. 
+Over the course of a solid 30-minutes of having your ears hammered about seemingly everything but the crime (Thank God for the cookies!), you're told that an inportant piece of Yrgo **property** has been **damaged**. Unfortunately the criminal, still at large, managed to flea the scene unnoticed, however you're given the current list of **Yrgo incidents** as a starting point, and apparently in there somewhere a student has logged their account of what happened. You're immediately suspicious as to why the principal hasn't gone to the effort of already finding out what happened and marking this logged entry for you. Something doesn't feel right ..the distressed phone call, the tea and snacks, and she doesn't even know what it is that's been damaged.  
 
-Good luck, be careful and watch your back. There's danger around every corner of these corridors!
+It's too soon to start pointing fingers and your only option is to follow the lead that you've been given. 
+Good luck, be careful and watch your back. It's quickly become clear that there's danger around every corner of these corridors!
 
 ## Solutions
 Too hard? Check the query solutions file if you get stuck.
