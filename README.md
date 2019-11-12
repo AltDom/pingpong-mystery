@@ -10,7 +10,7 @@ To set the scene of this crime assume you are a young police cadet on the Gothen
 
 When you arrive at Yrgo the principal invites you into her office for tea and cookies.   
 "Do you take milk with your tea?"   
-"Why yes, thank you, that would be lovely".
+"Why yes, thank you, that would be lovely". Vanilla rooibos ..your favourite between 10-11am.
 
 Over the course of a solid 30-minutes of having your ears hammered about seemingly everything but the crime (Thank God for the cookies!), you're told that an inportant piece of Yrgo **property** has been **damaged**. Unfortunately the hunted criminal, still at large, managed to flea the scene unnoticed, however you're given the current list of **Yrgo incidents** as a starting point, and apparently a student has logged somewhere in there what happened. You're immediately suspicious as to why the principal didn't go to the effort of finding this logged entry for you, but it's too soon to point fingers. You must follow the lead that you've been given. 
 
