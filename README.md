@@ -22,7 +22,7 @@ Good luck, be careful and watch your back. It's quickly becoming clear that ther
 Too hard? Check the query solutions file if you get stuck.
 
 ## Download
-* Clone the repository using `git clone https://github.com/AltDom/wu19-pingpongmystery.git` in your chosen bash terminal.
+* Clone the repository by typing `git clone https://github.com/AltDom/wu19-pingpongmystery.git` in your chosen bash terminal.
 * Run the SQLite database file in TablePlus your chosen bash terminal.
 * Use SQL database queries to navigate through the tables of data to solve the crime.
 * Enjoy!
