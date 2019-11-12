@@ -2,12 +2,21 @@
 
 <img src="https://media.giphy.com/media/J3S2eQvnQPYBpl3YjZ/giphy.gif" width="100%">
 
-Can you solve the Ping Pong Mysteries!? You will need to be cunning and use database queries to uncover who damaged the WU19 ping pong ball. 
+Can you solve the Ping Pong Mysteries!? You will need to be cunning and use database queries to uncover who it was who committed the ultimate sports crime. Your journey will be challenging. Your journey will be treacherous. Do you dare to follow a trail into the unknown where pure evil undoubtedly awaits!? 
 
 ## About This Project
-There are two versions of this project; `index.php` and `indexSQL.php`.
-* `index.php` is the main project document. With every reload of this file in the browser, each of the 10 news articles are constructed by randomly selecting an author (name & corresponding portrait), published date, as well as the number of likes & dislikes from larger datasets. Furthermore, the articles are always presented with the most recently written at the top of the news feed (even if they were publications from the future!). All of the authors who pop up in the feed (except one!) are students who studied with me in the Webbutvecklare course at Yrgo, Lindholmen in 2019.
-* `indexSQL.php` is an extra exercise as part of the assignment. It renders the same webpage as `index.php`, however the project data is read in from a SQLite database, and hence doesn't include the random features that were originally built into `index.php`. Enjoy!
+To set the scene of this crime assume you are a young police cadet on the GTB Police Force with only 1 year's training. Determined to impress the chief commissioner you're on the hunt to crack your first big case before the season is out. On an icy winter's morning you receive a chilling phonecall from the principal of Yrgo, Lindholmen. Though you're not ususally one to trust New Zealanders, you're drawn to the peculiarity of this case as well as the sense of urgency in her voice. 
+
+When you arrive at Yrgo the principal invites you into her office for tea and cookies. 
+"Do you take milk with your tea?" 
+"Why yes, thank you, that would be lovely".
+
+Over the course of a solid 30-minutes of having your ears hammered about seemingly everything but the crime (Thank God for the cookies!), you're told that an inportant piece of Yrgo **property** has been **damaged**. Unfortunately the hunted criminal, still at large, managed to flea the scene unnoticed, however you're given the current list of **Yrgo incidents** as a starting point, and apparently a student has logged somewhere in there what happened. You're immediately suspicious as to why the principal didn't go to the effort of finding this logged entry for you, but it's too soon to point fingers. You must follow the lead that you've been given. 
+
+Good luck, be careful and watch your back. There's danger around every corner and as James Bond's new tagline says - No Time To Die!
+
+## Solutions
+Too hard? Check the query solutions file if you get stuck.
 
 ## Download
 * Clone the repository using `git clone https://github.com/AltDom/wu19-pingpongmystery.git` in your chosen bash terminal.
@@ -16,6 +25,11 @@ There are two versions of this project; `index.php` and `indexSQL.php`.
 * Create a local server using the command `php -S localhost:8000`.
 * Open your browser of choice and go to the url `localhost:8000`.
 * Enjoy ...and remember to keep reloading the page!
+
+## Project Writers
+* Alexander Gustafsson Flink
+* Marcus Augustsson
+* Dominic Kersch
 
 ## Testers
 * Simon Kristiansson
