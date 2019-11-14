@@ -1,35 +1,59 @@
+% SOLUTIONS
+
+% Select the anonymous student's report about the damaged property. Students living on Bourbon Street are revealed to be suspects.
+SELECT * FROM yrgo_incidents WHERE incident_type LIKE 'damaged property';
+
+% Select the students living on Bourbon Street. Lars Larsson, Karl Karlsson & Stefan Stefansson are revealed.
 SELECT * FROM yrgo_records WHERE student_address LIKE '%Bourbon%';
 
+% Select the interviews with the 3 Yrgo students living on Bourbon Street. Lars Larsson hints to check shops with "lan" in the name, and also mentions Vin Vinsson should be interviewed. Karl Karlsson says he was smoking outside. Stefan Stefansson says he isn't in the Design Program and hence wasn't there.
+SELECT * FROM (SELECT * FROM yrgo_records
+INNER JOIN persons_in_gothenburg
+ON yrgo_records.person_number = persons_in_gothenburg.person_number 
+WHERE student_address LIKE '%Bourbon%') AS new_table
+INNER JOIN interviews
+ON interviews.person_id = new_table.id;
+
+% Reveals that only 2 of the 3 Yrgo students living on Bourbon Street are also in the Design Program. They are Lars Larsson & Karl Karlsson. This confirms that Stefan Stefansson is not in the Design Program (as he said).
+SELECT * FROM yrgo_design_program
+INNER JOIN yrgo_records
+ON yrgo_design_program.student_name = yrgo_records.student_name
+WHERE student_address LIKE '%Bourbon%';
+
+% Selects the interview with Vin Vinsson. He says he saw a really dumb kid with shitty grades playing ping pong.
 SELECT * FROM persons_in_gothenburg 
 INNER JOIN interviews
 ON persons_in_gothenburg.id = interviews.person_id 
-WHERE first_name LIKE 'lars';
+WHERE first_name LIKE 'vin';
 
-SELECT * FROM (SELECT * FROM yrgo_records
+% Unrelated to the quest, this quick check reveals that Vin Vinsson is also a really dumb student.
+SELECT * FROM yrgo_design_program WHERE student_name LIKE 'vin vinsson';
+
+% Selects the interview with the shop owner Gulan Gulansson of the shop Gulan Kiosk which has part of its name "lan". Gulan says that Lars' story checks out and that the culprit is male. He says he got away on a Voi scooter at exactly 6:06pm (or 18:06) and can't have travelled longer than 1 hour (60 minutes).
+SELECT * FROM (SELECT * FROM lindholmen_shops
 INNER JOIN persons_in_gothenburg
-on yrgo_records.person_number = persons_in_gothenburg.person_number 
-WHERE student_address LIKE '%Bourbon%') AS table1
-INNER Join interviews
-on interviews.person_id = table1.id;
+ON persons_in_gothenburg.person_number = lindholmen_shops.owner_id
+WHERE shop_name like '%lan%') AS new_table
+INNER JOIN interviews
+ON interviews.person_id = new_table.id;
 
-SELECT * FROM lindholmen_shops
-inner join persons_in_gothenburg
-on persons_in_gothenburg.person_number = lindholmen_shops.owner_id
-where shop_name like '%lan%';
-
-SELECT * FROM interviews
-WHERE person_id = '666';
-
-SELECT * FROM voi_journeys_lindholmen_14oct
-WHERE journey_start = '18:06';
-
+% Selects Yrgo students who started a Voi journey at exactly 6:06pm which was less than 1hr in duration. Failing to meet both of these criteria includes other students. Chip Chipsson and Ian Iansson are the names discovered.
 SELECT * FROM voi_journeys_lindholmen_14oct
 INNER JOIN yrgo_records
 ON voi_journeys_lindholmen_14oct.user_person_number = yrgo_records.person_number
-WHERE journey_start = '18:06';
+WHERE journey_start = '18:06' AND journey_duration_min <= 60;
 
+% Selects Chip Chipsson from the Design Class. He has perfect grades so doesn't fit the description.
 SELECT * FROM yrgo_design_program
-WHERE student_name LIKE '%chip%';
+WHERE student_name LIKE 'chip chipsson';
 
+% Selects Chip Chipsson from the Design Class. He is as dumb as they come and fits the description of the criminal.
 SELECT * FROM yrgo_design_program
-WHERE student_name LIKE '%ian%';
+WHERE student_name LIKE 'ian iansson';
+
+BONUS QUESTION SOLUTION
+SELECT * FROM (SELECT * FROM yrgo_records
+INNER JOIN persons_in_gothenburg
+ON persons_in_gothenburg.person_number = yrgo_records.person_number) AS new_table
+INNER JOIN interviews
+ON interviews.person_id = new_table.id;
